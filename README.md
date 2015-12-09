@@ -36,7 +36,7 @@ Otra opción podría haber sido almacenar el JSON que se pasa como parámetro di
 
 ## Controladores
 
-Para hacer la aplicación universal se ha usado un SplitViewController. Dentro de este se ha usado un NavigationController junto con un TableViewController llamado MasterViewController.    
+Para hacer la aplicación universal se ha usado un SplitViewController. Dentro de este se tiene:    
 
 **MasterViewController:** Este controlador se encarga del Table View de la aplicación. La forma de funcionar es la siguiente: Cuando se acaba de cargar, comprueba si es la primera vez que se ejecuta la aplicación (a través de la propiedad "firstTime").    
 
@@ -46,7 +46,7 @@ Este controlador también se encarga de ser el delegado del TableView y de conte
 *updateLibrary:* Se trata de una función que guarda cambios en local, recarga el array de favoritos y recarga el TableView. Se usa cuando en un libro se marca su opción de favoritos para refrescar la infromación que se ve en pantalla y que está almacenada. El uso de reloadData para recargar la tabla no supone penalización en rendimiento debido a que el volumen de información a recargar es bajo.  
 *BookSelectionDelegate:* Se trata de un protocolo que implementará posteriormente la vista de detalle, en el que se pasará la información del modelo y el libro seleccionado para que pueda mostrar su información por pantalla y guardar cambios.    
 
-**DetailViewCOntroller:** Este controlador, que se encuentra encapsulado dentro de un NavigationController, muestra el detalle de un objeto de tipo AGTBook que se haya seleccioando del TableView gestionado por MasterViewController.    
+**DetailViewController:** Este controlador, que se encuentra encapsulado dentro de un NavigationController, muestra el detalle de un objeto de tipo AGTBook que se haya seleccioando del TableView gestionado por MasterViewController.    
 
 Cosas a destacar de este controlador, es que envía una notificación (gestionada por favoriteSwitchChangeKey) para indicar que ha cambiado el estado de favorito de un libro y que, cuando se ha cargado, comprueba el último libro que se seleccionó para, de esta forma poder mostrarlo.    
 
