@@ -11,7 +11,7 @@ A su vez, va a contener dos inicializadores designados: uno en el que se le pasa
 Por último, implementa los protocolos de *NSCoding* (para inicializar un objeto de local usando Archiving) y *Comparable* para poder posteriormente ordenar estos objetos.   
 
 **AGTLibrary:** Esta clase contiene la información relativa a la biblioteca. Para ello mantiene 3 arrays diferentes:      
-*books:* Este array contiene objetos de tipo AGTBook con la información de los libros, bien recogda de local o bien decodificada de un JSON.   
+*books:* Este array contiene objetos de tipo AGTBook con la información de los libros, bien recogida de local o bien decodificada de un JSON.   
 *tags:* Este array va a contener todos los tags (no repetidos) que se encuentren dentro del array *books*.    
 *favorites:* Este array de enteros, contiene los índices, del array books que se han marcado como favoritos.  
 
