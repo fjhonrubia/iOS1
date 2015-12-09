@@ -31,7 +31,7 @@ Se ha obtado por no hacer lo mismo con los PDF (aunque el proceso sería idénti
 
 **Functions:** Este fichero contiene las funciones para obtener los tags y los favoritos del array books de la clase AGTLibrary y una función para leer una imagen de /Documents/images a partir del nombre de la misma.    
 
-Se ha obtado por almacenar la información de array books usando la técnica de archiving en un fichero llamado /books.archive dentro del sandbox de la aplicación ya que, una vez que se ha decodificado la información, es un proceso sencillo y rápido debido a que muchos de los objetos usados, como por ejemplo Strings, ya implementan el protocolo NSCoding y saben como tienen que guardarse en local y obtenerse posterioremnte. Además de esta forma se puede almacenar y recuperar posteriormente la marca de si un libro es o no favorito de forma muy sencilla.
+Se ha obtado por almacenar la información de array books usando la técnica de archiving en un fichero llamado /books.archive dentro del sandbox de la aplicación ya que, una vez que se ha decodificado la información, es un proceso sencillo y rápido debido a que muchos de los objetos usados, como por ejemplo Strings, ya implementan el protocolo NSCoding y saben como tienen que guardarse en local y obtenerse posteriormente. Además de esta forma se puede almacenar y recuperar posteriormente la marca de si un libro es o no favorito de forma muy sencilla.
 Otra opción podría haber sido almacenar el JSON que se pasa como parámetro directaemtente e ir decodificándolo cada vez, pero aquí habría que haber usado otra alternativa para persistir la información de que un libro es favorito.    
 
 ## Controladores
