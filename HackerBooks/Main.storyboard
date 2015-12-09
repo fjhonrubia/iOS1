@@ -24,7 +24,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f5m-BT-cKh">
                                         <rect key="frame" x="112" y="0.0" width="42" height="85"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3R-qx-S4P">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3R-qx-S4P">
                                                 <rect key="frame" x="0.0" y="33" width="42" height="19"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -64,7 +64,7 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNy-cb-AuX">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNy-cb-AuX">
                                                 <rect key="frame" x="112" y="26" width="42" height="20"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -77,7 +77,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DYS-ZL-XiW">
                                         <rect key="frame" x="68" y="425" width="130" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Favorito" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNF-UH-UKs">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorito" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNF-UH-UKs">
                                                 <rect key="frame" x="0.0" y="6" width="61" height="19"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -121,9 +121,8 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VOc-98-Z2c" firstAttribute="top" secondItem="bC8-2P-Ktl" secondAttribute="bottom" constant="20" id="0Pf-TJ-kxe"/>
-                            <constraint firstItem="bC8-2P-Ktl" firstAttribute="leading" secondItem="z61-Ck-2Dh" secondAttribute="leadingMargin" constant="20" id="G1i-ei-j8O"/>
-                            <constraint firstItem="bC8-2P-Ktl" firstAttribute="top" secondItem="f8L-XT-qIx" secondAttribute="bottom" constant="20" id="ejB-qZ-ema"/>
+                            <constraint firstItem="bC8-2P-Ktl" firstAttribute="centerY" secondItem="z61-Ck-2Dh" secondAttribute="centerY" id="aA7-9s-4qh"/>
+                            <constraint firstItem="bC8-2P-Ktl" firstAttribute="centerX" secondItem="z61-Ck-2Dh" secondAttribute="centerX" id="mi4-L2-hz4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fDR-Iq-BQ6"/>
